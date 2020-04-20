@@ -5,7 +5,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 const bot = new SlackBot({
     token: `${process.env.BOT_TOKEN}`,
-    token: "xoxb-207644744501-1050105267093-GvoxoXsSNiuCN9NbsknVaUkT",
     name: "jirabot"
 });
 
