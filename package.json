@@ -1,0 +1,27 @@
+{
+  "name": "jira_slackbot",
+  "version": "1.0.0",
+  "description": "Slack bot that answers on messages, which contain jira ticket",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Koty",
+  "license": "GPL-2.0-only",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnaXtou/Linkslackbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EnaXtou/Linkslackbot/issues"
+  },
+  "homepage": "https://github.com/EnaXtou/Linkslackbot#readme"
+}
